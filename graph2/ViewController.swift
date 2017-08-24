@@ -9,9 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var graph:Graph!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        graph.setData(points: [1,7,1,7,1,20,1,7,1,7,1,7,1])
         // Do any additional setup after loading the view, typically from a nib.
     }
 

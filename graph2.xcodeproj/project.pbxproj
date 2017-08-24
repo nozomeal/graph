@@ -13,6 +13,7 @@
 		2DCB721F1F4DA07A00434FC3 /* graph2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB721D1F4DA07A00434FC3 /* graph2.xcdatamodeld */; };
 		2DCB72211F4DA07A00434FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCB72201F4DA07A00434FC3 /* Assets.xcassets */; };
 		2DCB72241F4DA07A00434FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCB72221F4DA07A00434FC3 /* LaunchScreen.storyboard */; };
+		2DCB722C1F4E574600434FC3 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB722B1F4E574600434FC3 /* Graph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2DCB72201F4DA07A00434FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCB72231F4DA07A00434FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCB72251F4DA07A00434FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCB722B1F4E574600434FC3 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2DCB72161F4DA07A00434FC3 /* AppDelegate.swift */,
 				2DCB72181F4DA07A00434FC3 /* ViewController.swift */,
+				2DCB722B1F4E574600434FC3 /* Graph.swift */,
 				2DCB721A1F4DA07A00434FC3 /* Main.storyboard */,
 				2DCB72201F4DA07A00434FC3 /* Assets.xcassets */,
 				2DCB72221F4DA07A00434FC3 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCB722C1F4E574600434FC3 /* Graph.swift in Sources */,
 				2DCB72191F4DA07A00434FC3 /* ViewController.swift in Sources */,
 				2DCB72171F4DA07A00434FC3 /* AppDelegate.swift in Sources */,
 				2DCB721F1F4DA07A00434FC3 /* graph2.xcdatamodeld in Sources */,
