@@ -16,6 +16,8 @@ class Graph: UIView {
     //グラフのプロットデータ設定のメソッド
     func setData(points: [Int]){
         graphPoints=points
+        
+        //drawRectを呼び出す予約をする。
         self.setNeedsDisplay()
     }
     
